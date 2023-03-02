@@ -9,7 +9,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 public class ExtentTestManager 
 {
 
-	static Map extentTestMap = new HashMap();
+/*	static Map extentTestMap = new HashMap();
 	static ExtentReports extent = ExtentManager.getReporter();
 
 	public static synchronized ExtentTest getTest() {
@@ -29,5 +29,5 @@ public class ExtentTestManager
 		extentTestMap.put((int) (long) (Thread.currentThread().getId()), test);
 
 		return test;
-	}
+	}*/
 }
