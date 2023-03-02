@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-02T16:37:38 IST" name="Default suite" finished-at="2023-03-02T16:37:41 IST" duration-ms="3343">
+    <groups>
+    </groups>
+    <test started-at="2023-03-02T16:37:38 IST" name="Default test" finished-at="2023-03-02T16:37:41 IST" duration-ms="3343">
+      <class name="newDevAssignementApi.NewAgentAssignment">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:newDevAssignementApi.NewAgentAssignment@58d75e99]" started-at="2023-03-02T16:37:38 IST" name="beforeMethod" finished-at="2023-03-02T16:37:38 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void newDevAssignementApi.NewAgentAssignment.DevAgentAssignementNOTICETest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="DevAgentAssignementNOTICETest()[pri:0, instance:newDevAssignementApi.NewAgentAssignment@58d75e99]" started-at="2023-03-02T16:37:38 IST" name="DevAgentAssignementNOTICETest" finished-at="2023-03-02T16:37:40 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DevAgentAssignementNOTICETest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:newDevAssignementApi.NewAgentAssignment@58d75e99]" started-at="2023-03-02T16:37:40 IST" name="afterMethod" finished-at="2023-03-02T16:37:41 IST" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DevAgentAssignementNOTICETest status=SUCCESS method=NewAgentAssignment.DevAgentAssignementNOTICETest()[pri:0, instance:newDevAssignementApi.NewAgentAssignment@58d75e99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- newDevAssignementApi.NewAgentAssignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
