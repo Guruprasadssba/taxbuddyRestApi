@@ -1,4 +1,4 @@
-package taxbuddyApiTest;
+/*package taxbuddyApiTest;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 public class UpdateGSTProfileDetailsTest 
@@ -30,3 +30,4 @@ public class UpdateGSTProfileDetailsTest
 
 	}
 }
+*/

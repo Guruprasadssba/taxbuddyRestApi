@@ -1,6 +1,6 @@
 package generic_Utility;
 
-import java.util.HashMap;
+/*import java.util.HashMap;
 import java.util.Map;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -29,5 +29,6 @@ public class ExtentTestManager
 		extentTestMap.put((int) (long) (Thread.currentThread().getId()), test);
 
 		return test;
-	}*/
+	}
 }
+*/

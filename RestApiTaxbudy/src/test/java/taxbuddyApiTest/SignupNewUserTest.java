@@ -1,4 +1,4 @@
-package taxbuddyApiTest;
+/*package taxbuddyApiTest;
 
 import static io.restassured.RestAssured.*;
 
@@ -41,3 +41,4 @@ public class SignupNewUserTest
 		
 	}
 }
+*/

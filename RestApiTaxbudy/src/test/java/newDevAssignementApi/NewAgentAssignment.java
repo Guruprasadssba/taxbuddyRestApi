@@ -1,6 +1,6 @@
 package newDevAssignementApi;
 
-import org.testng.annotations.Test;
+/*import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -11,7 +11,7 @@ import io.restassured.response.ValidatableResponse;
 import static io.restassured.RestAssured.*;
 
 
-public class NewAgentAssignment extends BaseClass
+public class NewAgentAssignment 
 {
   /*@Test
   public void DevAgentAssignementGSTTest()
@@ -126,7 +126,7 @@ public class NewAgentAssignment extends BaseClass
 //	ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name :DevAgentAssignementITRTest");
 //	ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
   
-  }*/
+  }
 }
-
+*/
 
