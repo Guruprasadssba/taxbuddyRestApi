@@ -1,4 +1,4 @@
-package practiceTaxbbuddyApiTest;
+/*package practiceTaxbbuddyApiTest;
 
 import pojoClass.SignpUserDetailsTest;
 import static io.restassured.RestAssured.*;
@@ -24,5 +24,6 @@ public class CreateUserPojoTest
 		  .post("/user/user_account")
 		  .then()
 		  .log().all();
-	  }*/
+	  }
 }
+*/

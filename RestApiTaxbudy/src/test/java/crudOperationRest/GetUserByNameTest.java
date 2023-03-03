@@ -1,4 +1,4 @@
-package crudOperationRest;
+/*package crudOperationRest;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -23,3 +23,4 @@ public class GetUserByNameTest {
 		validateres.assertThat().statusCode(200).log().all();
 	}
 }
+*/

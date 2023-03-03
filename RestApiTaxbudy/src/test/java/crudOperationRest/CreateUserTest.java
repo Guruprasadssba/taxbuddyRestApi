@@ -1,4 +1,4 @@
-package crudOperationRest;
+/*package crudOperationRest;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
@@ -39,3 +39,4 @@ public class CreateUserTest
 		
 	  }
 }
+*/

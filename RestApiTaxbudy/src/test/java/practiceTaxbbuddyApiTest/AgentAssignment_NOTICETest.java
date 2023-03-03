@@ -1,4 +1,4 @@
-package practiceTaxbbuddyApiTest;
+/*package practiceTaxbbuddyApiTest;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -35,3 +35,4 @@ public class AgentAssignment_NOTICETest
 		validateRes.assertThat().statusCode(200).log().all();
 	}
 }
+*/

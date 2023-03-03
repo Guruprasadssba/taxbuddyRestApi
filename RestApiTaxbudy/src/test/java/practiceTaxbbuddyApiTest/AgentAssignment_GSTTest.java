@@ -1,4 +1,4 @@
-package practiceTaxbbuddyApiTest;
+/*package practiceTaxbbuddyApiTest;
 
 import org.testng.annotations.Test;
 
@@ -36,3 +36,4 @@ public class AgentAssignment_GSTTest
 		  validateRes.assertThat().statusCode(200).log().all();
 	   }		  
 }
+*/

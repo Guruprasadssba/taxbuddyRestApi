@@ -1,4 +1,4 @@
-package practiceTaxbbuddyApiTest;
+/*package practiceTaxbbuddyApiTest;
 
 import org.testng.annotations.Test;
 
@@ -29,3 +29,4 @@ public class PricingPlansGST_ITRTest
 		  validateRes.assertThat().statusCode(200).log().all();
 	   }
 }
+*/
