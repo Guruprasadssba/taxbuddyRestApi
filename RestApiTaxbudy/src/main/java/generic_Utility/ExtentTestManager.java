@@ -1,6 +1,6 @@
 package generic_Utility;
 
-/*import java.util.HashMap;
+import java.util.HashMap;
 import java.util.Map;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -8,8 +8,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 
 public class ExtentTestManager 
 {
-
-/*	static Map extentTestMap = new HashMap();
+	static Map extentTestMap = new HashMap();
 	static ExtentReports extent = ExtentManager.getReporter();
 
 	public static synchronized ExtentTest getTest() {
@@ -31,4 +30,3 @@ public class ExtentTestManager
 		return test;
 	}
 }
-*/

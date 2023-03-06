@@ -1,6 +1,6 @@
 package generic_Utility;
 
-/*import java.io.PrintWriter;
+import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
 
@@ -12,43 +12,44 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public abstract class BaseClass 
 {
-//	/**
-//	 * 
-//	 * @param method
-//	 */
-//	@BeforeMethod
-//    public void beforeMethod(Method method) {
-//        ExtentTestManager.startTest(method.getName());
-//    }
-//    
-//	/**
-//	 * 
-//	 * @param result
-//	 */
-//    @AfterMethod
-//    protected void afterMethod(ITestResult result)
-//    {
-//        if (result.getStatus() == ITestResult.FAILURE) {
-//            ExtentTestManager.getTest().log(LogStatus.FAIL, result.getThrowable());
-//        } else if (result.getStatus() == ITestResult.SKIP) {
-//            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test skipped " + result.getThrowable());
-//        } else {
-//            ExtentTestManager.getTest().log(LogStatus.PASS, "Test passed");
-//        }
-//        
-//        ExtentManager.getReporter().endTest(ExtentTestManager.getTest());        
-//        ExtentManager.getReporter().flush();
-//    }
-//    
-//    /**
-//     * 
-//     * @param t
-//     * @return
-//     */
-//    protected String getStackTrace(Throwable t)
-//    {
-//        StringWriter sw = new StringWriter();
-//        PrintWriter pw = new PrintWriter(sw);
-//        t.printStackTrace(pw);
-//        return sw.toString();
-//    }
+	/**
+	 * 
+	 * @param method
+	 */
+	@BeforeMethod
+    public void beforeMethod(Method method) {
+        ExtentTestManager.startTest(method.getName());
+    }
+    
+	/**
+	 * 
+	 * @param result
+	 */
+    @AfterMethod
+    protected void afterMethod(ITestResult result)
+    {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            ExtentTestManager.getTest().log(LogStatus.FAIL, result.getThrowable());
+        } else if (result.getStatus() == ITestResult.SKIP) {
+            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test skipped " + result.getThrowable());
+        } else {
+            ExtentTestManager.getTest().log(LogStatus.PASS, "Test passed");
+        }
+        
+        ExtentManager.getReporter().endTest(ExtentTestManager.getTest());        
+        ExtentManager.getReporter().flush();
+    }
+    
+    /**
+     * 
+     * @param t
+     * @return
+     */
+    protected String getStackTrace(Throwable t)
+    {
+        StringWriter sw = new StringWriter();
+        PrintWriter pw = new PrintWriter(sw);
+        t.printStackTrace(pw);
+        return sw.toString();
+    }
+}

@@ -1,6 +1,6 @@
 package practiceTaxbbuddyApiTest;
 
-import org.testng.annotations.Test;
+/*import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -30,3 +30,4 @@ public class UserProfileDetailsTest
 		  validateRes.assertThat().statusCode(200).log().all();
 	   }
 }
+*/

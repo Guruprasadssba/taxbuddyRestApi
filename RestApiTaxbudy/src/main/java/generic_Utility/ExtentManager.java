@@ -1,4 +1,4 @@
-/*package generic_Utility;
+package generic_Utility;
 
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -15,4 +15,4 @@ public class ExtentManager
 
 		return extent;
 	}
-}*/
+}

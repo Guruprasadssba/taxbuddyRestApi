@@ -2,13 +2,17 @@ package taxbuddyApiTest;
 
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
+
+import generic_Utility.BaseClass;
+import generic_Utility.ExtentTestManager;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 
-public class SampleAssignmentApiTest 
+public class SampleAssignmentApiTest extends BaseClass
 {
 	//https://api.taxbuddy.com/user/sme/agent-assignment?userId=619930&assessmentYear=2022-2023&serviceType=ITR
 	
@@ -31,6 +35,11 @@ public class SampleAssignmentApiTest
 			// validating response
 			ValidatableResponse validateRes = res.then();
 			validateRes.assertThat().contentType(ContentType.JSON).statusCode(200).log().all();
+			
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + validateRes.extract().asString());
+
+
 
 
 		}
@@ -53,6 +62,10 @@ public class SampleAssignmentApiTest
 			// validating response
 			ValidatableResponse validateRes = res.then();
 			validateRes.assertThat().contentType(ContentType.JSON).statusCode(200).log().all();
+			
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentGSTTest");
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + validateRes.extract().asString());
+
 
 		}
 
@@ -74,6 +87,10 @@ public class SampleAssignmentApiTest
 			// validating response
 			ValidatableResponse validateRes = res.then();
 			validateRes.assertThat().contentType(ContentType.JSON).statusCode(200).log().all();
+			
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentNoticeTest");
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + validateRes.extract().asString());
+
 
 		}
 }
