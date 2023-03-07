@@ -1,17 +1,18 @@
 package taxbuddyApiTest;
 
-/*import org.testng.annotations.Test;
+import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.given;
+
+import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 
 import generic_Utility.BaseClass;
-import generic_Utility.ExtentTestManager;
+import generic_Utility.ExtentTestManagerExtent;
 import io.restassured.response.ValidatableResponse;
 
-import static io.restassured.RestAssured.*;
 
-
-public class AgentAssignmentTest 
+public class AgentAssignmentTest extends BaseClass
 {
 
 	@Test
@@ -29,8 +30,8 @@ public class AgentAssignmentTest
 
 	
 
-		//ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
-		//ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+        ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
+        ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
 
 
 	}
@@ -49,8 +50,8 @@ public class AgentAssignmentTest
 				.assertThat().statusCode(200).log().all(); 
 
 
-		//ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssigmentGSTTest ");
-		//ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+	//	ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssigmentGSTTest ");
+	//	ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
 
 	}
 
@@ -68,11 +69,10 @@ public class AgentAssignmentTest
 				.assertThat().statusCode(200).log().all();
 
 
-		//ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name : AgentAssignmentNoticeTest");
-		//ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+	//	ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name : AgentAssignmentNoticeTest");
+	//	ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
 
 
 	}
 
 }
-*/

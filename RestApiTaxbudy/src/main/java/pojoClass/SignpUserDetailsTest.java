@@ -1,4 +1,4 @@
-package pojoClass;
+/*package pojoClass;
 
 public class SignpUserDetailsTest 
 {
@@ -74,3 +74,4 @@ public class SignpUserDetailsTest
 	}
 
 }
+*/

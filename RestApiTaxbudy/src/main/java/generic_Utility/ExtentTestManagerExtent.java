@@ -6,7 +6,7 @@ import java.util.Map;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
-public class ExtentTestManager 
+public class ExtentTestManagerExtent 
 {
 	static Map extentTestMap = new HashMap();
 	static ExtentReports extent = ExtentManager.getReporter();
@@ -29,4 +29,7 @@ public class ExtentTestManager
 
 		return test;
 	}
+
+
 }
+
