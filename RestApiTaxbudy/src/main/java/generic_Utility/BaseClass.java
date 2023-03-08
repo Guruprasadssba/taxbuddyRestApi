@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 
 import com.relevantcodes.extentreports.LogStatus;
 
-public  class BaseClass 
+public abstract class BaseClass 
 {
 
 	@BeforeMethod

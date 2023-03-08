@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8300" started-at="2023-03-06T23:26:36 IST" finished-at="2023-03-06T23:26:44 IST">
+  <suite name="Default suite" duration-ms="12782" started-at="2023-03-08T13:56:24 IST" finished-at="2023-03-08T13:56:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8300" started-at="2023-03-06T23:26:36 IST" finished-at="2023-03-06T23:26:44 IST">
+    <test name="Default test" duration-ms="12782" started-at="2023-03-08T13:56:24 IST" finished-at="2023-03-08T13:56:37 IST">
       <class name="taxbuddyApiTest.AgentAssignmentTest">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@3891771e]" name="configBS" is-config="true" duration-ms="18" started-at="2023-03-06T23:26:36 IST" finished-at="2023-03-06T23:26:36 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="configBM" is-config="true" duration-ms="193" started-at="2023-03-08T13:56:24 IST" finished-at="2023-03-08T13:56:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void taxbuddyApiTest.AgentAssignmentTest.AgentAssignapiGSTTest()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="configBC()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@3891771e]" name="configBC" is-config="true" duration-ms="1" started-at="2023-03-06T23:26:36 IST" finished-at="2023-03-06T23:26:36 IST">
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="AgentAssignapiGSTTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="AgentAssignapiGSTTest" duration-ms="7123" started-at="2023-03-08T13:56:24 IST" finished-at="2023-03-08T13:56:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@3891771e]" name="configBM" is-config="true" duration-ms="242" started-at="2023-03-06T23:26:36 IST" finished-at="2023-03-06T23:26:36 IST">
+        </test-method> <!-- AgentAssignapiGSTTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="afterMethod" is-config="true" duration-ms="622" started-at="2023-03-08T13:56:31 IST" finished-at="2023-03-08T13:56:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AgentAssignapiGSTTest status=SUCCESS method=AgentAssignmentTest.AgentAssignapiGSTTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="configBM" is-config="true" duration-ms="1" started-at="2023-03-08T13:56:32 IST" finished-at="2023-03-08T13:56:32 IST">
           <params>
             <param index="0">
               <value>
@@ -26,29 +44,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="AgentAssignapiITRTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@3891771e]" name="AgentAssignapiITRTest" duration-ms="7373" started-at="2023-03-06T23:26:36 IST" finished-at="2023-03-06T23:26:44 IST">
+        <test-method status="PASS" signature="AgentAssignapiITRTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="AgentAssignapiITRTest" duration-ms="2043" started-at="2023-03-08T13:56:32 IST" finished-at="2023-03-08T13:56:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AgentAssignapiITRTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@3891771e]" name="afterMethod" is-config="true" duration-ms="622" started-at="2023-03-06T23:26:44 IST" finished-at="2023-03-06T23:26:44 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="afterMethod" is-config="true" duration-ms="78" started-at="2023-03-08T13:56:34 IST" finished-at="2023-03-08T13:56:34 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AgentAssignapiITRTest status=SUCCESS method=AgentAssignmentTest.AgentAssignapiITRTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@3891771e] output={null}]]]>
+                <![CDATA[[TestResult name=AgentAssignapiITRTest status=SUCCESS method=AgentAssignmentTest.AgentAssignapiITRTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="configAC()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@3891771e]" name="configAC" is-config="true" duration-ms="1" started-at="2023-03-06T23:26:44 IST" finished-at="2023-03-06T23:26:44 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="configBM" is-config="true" duration-ms="0" started-at="2023-03-08T13:56:34 IST" finished-at="2023-03-08T13:56:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void taxbuddyApiTest.AgentAssignmentTest.AgentAssignapiNoticeTest()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configAC -->
-        <test-method status="PASS" signature="configAS()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@3891771e]" name="configAS" is-config="true" duration-ms="0" started-at="2023-03-06T23:26:44 IST" finished-at="2023-03-06T23:26:44 IST">
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="AgentAssignapiNoticeTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="AgentAssignapiNoticeTest" duration-ms="2566" started-at="2023-03-08T13:56:34 IST" finished-at="2023-03-08T13:56:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configAS -->
+        </test-method> <!-- AgentAssignapiNoticeTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3]" name="afterMethod" is-config="true" duration-ms="70" started-at="2023-03-08T13:56:37 IST" finished-at="2023-03-08T13:56:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AgentAssignapiNoticeTest status=SUCCESS method=AgentAssignmentTest.AgentAssignapiNoticeTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@a38d7a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- taxbuddyApiTest.AgentAssignmentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
