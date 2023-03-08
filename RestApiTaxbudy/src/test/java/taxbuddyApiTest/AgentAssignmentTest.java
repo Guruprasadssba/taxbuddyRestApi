@@ -28,14 +28,14 @@ public class AgentAssignmentTest extends BaseClass
 				.then()
 				.assertThat().statusCode(200).log().all();
 
-	
 
-        ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
-        ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
 
 
 	}
-	
+
 	@Test
 	public void AgentAssignapiGSTTest()
 	{
@@ -50,8 +50,8 @@ public class AgentAssignmentTest extends BaseClass
 				.assertThat().statusCode(200).log().all(); 
 
 
-	//	ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssigmentGSTTest ");
-	//	ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssigmentGSTTest ");
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
 
 	}
 
@@ -69,8 +69,8 @@ public class AgentAssignmentTest extends BaseClass
 				.assertThat().statusCode(200).log().all();
 
 
-	//	ExtentTestManager.getTest().log(LogStatus.INFO, "Test Case Name : AgentAssignmentNoticeTest");
-	//	ExtentTestManager.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+			ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name : AgentAssignmentNoticeTest");
+			ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
 
 
 	}
