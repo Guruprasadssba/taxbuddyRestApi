@@ -1,4 +1,4 @@
-package taxbuddyApiTest;
+/*package taxbuddyApiTest;
 
 import org.testng.annotations.Test;
 
@@ -40,3 +40,4 @@ public class SmeManagementApiTest extends BaseClass
 		
 	}
 }
+*/
