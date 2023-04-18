@@ -1,70 +1,42 @@
-/*package taxbuddyApiTest;
+package taxbuddyApiTest;
 
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 
+import generic_Utility.BaseClass;
 import generic_Utility.ExtentTestManagerExtent;
+import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 
 import static io.restassured.RestAssured.*;
 
-public class SmeManagementApiTest 
+public class SmeManagementApiTest extends BaseClass
 {
 	@Test
-	public void AssignedSmeTest()
+	public void SmeManagementAssignedSmeTest() 
 	{
-		baseURI="https://uat-api.taxbuddy.com";
-		ValidatableResponse response = given()
+		baseURI="https://api.taxbuddy.com";
+		Response response = given()
 				.queryParam("page", 0)
 				.queryParam("pageSize", 30)
-				.queryParam("assigned", "true")
+				.queryParam("assigned", true)
 				.when()
-				.get("/user/sme-details-new/3000")
-				.then()
-				.assertThat().statusCode(200).log().all();
+				.get("/user/sme-details-new/1064");
 		
-	
+		ValidatableResponse validateresponse = response.then().assertThat().statusCode(200).log().all();
+
+		if (response.jsonPath().getBoolean("success")==true) 
+		{
+			System.out.println("Testcase is pass");
+		}
+		else
+		{
+			System.out.println("Testcase is failed");
+		}    
+
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :SmeManagementAssignedSmeTest");
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + validateresponse.extract().asString());
 		
-//		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AssignedSmeTest");
-//		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
-	}
-	
-	
-	@Test
-	public void UnAssignedSmeTest()
-	{
-		baseURI="https://uat-api.taxbuddy.com";
-		ValidatableResponse response = given()
-				.queryParam("page", 0)
-				.queryParam("pageSize", 30)
-				.queryParam("assigned", "false")
-				.when()
-				.get("/user/sme-details-new/3000")
-				.then()
-				.assertThat().statusCode(200).log().all();
-		
-//		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :UnAssignedSmeTest");
-//		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
-	
-	}
-	
-	@Test
-	public void ReAssignedSmeTest()
-	{
-		baseURI="https://uat-api.taxbuddy.com";
-		ValidatableResponse response = given()
-				.queryParam("page", 0)
-				.queryParam("pageSize", 20)
-				.queryParam("active", "false")
-				.when()
-				.get("/user/sme-details-new/3000")
-				.then()
-				.assertThat().statusCode(200).log().all();
-		
-//		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :ReAssignedSmeTest");
-//		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
-	
 	}
 }
-*/
