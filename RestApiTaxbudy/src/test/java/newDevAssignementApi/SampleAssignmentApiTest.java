@@ -1,3 +1,4 @@
+package newDevAssignementApi;
 /*package taxbuddyApiTest;
 
 import org.testng.annotations.Test;

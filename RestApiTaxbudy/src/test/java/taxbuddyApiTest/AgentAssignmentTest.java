@@ -3,12 +3,14 @@ package taxbuddyApiTest;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 
 import generic_Utility.BaseClass;
 import generic_Utility.ExtentTestManagerExtent;
+import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 
 
@@ -19,20 +21,25 @@ public class AgentAssignmentTest extends BaseClass
 	public void AgentAssignapiITRTest()
 	{
 		baseURI="https://api.taxbuddy.com";
-		ValidatableResponse response = given()
+		Response response = given()
 				.queryParam("userId", 619930)
 				.queryParam("assessmentYear", 2022-2023)
 				.queryParam("serviceType", "ITR")
 				.when()
-				.get("/user/sme/agent-assignment")
-				.then()
-				.assertThat().statusCode(200).log().all();
+				.get("/user/sme/agent-assignment");
+		ValidatableResponse validateresponse = response.then().assertThat().statusCode(200).log().all();
 
-
+		if (response.jsonPath().getBoolean("success")==true) 
+		{
+			System.out.println("Testcase is pass");
+		}
+		else
+		{
+			System.out.println("Testcase is failed");
+		}
 
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
-		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
-
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + validateresponse.extract().asString());
 
 	}
 
@@ -40,18 +47,27 @@ public class AgentAssignmentTest extends BaseClass
 	public void AgentAssignapiGSTTest()
 	{
 		baseURI="https://api.taxbuddy.com";
-		ValidatableResponse response = given()
+		Response response = given()
 				.queryParam("userId", 619930)
 				.queryParam("assessmentYear", 2022-2023)
 				.queryParam("serviceType", "GST")
 				.when()
-				.get("/user/sme/agent-assignment")
-				.then()
-				.assertThat().statusCode(200).log().all(); 
+				.get("/user/sme/agent-assignment");
 
+		ValidatableResponse validateResponse = response.then().assertThat().statusCode(200).log().all(); 
+
+
+		if (response.jsonPath().getBoolean("success")==true) 
+		{
+			System.out.println("Testcase is pass");
+		}
+		else
+		{
+			System.out.println("Testcase is failed");
+		}      
 
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssigmentGSTTest ");
-		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + validateResponse.extract().asString());
 
 	}
 
@@ -59,18 +75,25 @@ public class AgentAssignmentTest extends BaseClass
 	public void AgentAssignapiNoticeTest()
 	{
 		baseURI="https://api.taxbuddy.com";
-		ValidatableResponse response = given()
+		Response response = given()
 				.queryParam("userId", 619930)
 				.queryParam("assessmentYear", 2022-2023)
 				.queryParam("serviceType", "NOTICE")
 				.when()
-				.get("/user/sme/agent-assignment")
-				.then()
-				.assertThat().statusCode(200).log().all();
+				.get("/user/sme/agent-assignment");
+		ValidatableResponse validateResponse = response.then().assertThat().statusCode(200).log().all();
 
+		if (response.jsonPath().getBoolean("success")==true) 
+		{
+			System.out.println("Testcase is pass");
+		}
+		else
+		{
+			System.out.println("Testcase is failed");
+		}    
 
-			ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name : AgentAssignmentNoticeTest");
-			ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name : AgentAssignmentNoticeTest");
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + validateResponse.extract().asString());
 
 
 	}
