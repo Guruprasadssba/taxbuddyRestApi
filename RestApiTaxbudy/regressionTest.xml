@@ -6,6 +6,8 @@
 			<class name="taxbuddyApiTest.AgentAssignmentTest" />
 			<class name="taxbuddyApiTest.BOUserITRStatusTest" />
 			<class name="taxbuddyApiTest.SignupNewUserTest" />
+			<class name="taxbuddyApiTest.TBLoginApiTest" />
+			<class name="taxbuddyApiTest.SmeManagementApiTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,4 +1,4 @@
-/*package taxbuddyApiTest;
+package taxbuddyApiTest;
 
 import org.testng.annotations.Test;
 
@@ -16,7 +16,7 @@ public class SmeManagementApiTest extends BaseClass
 	@Test
 	public void SmeManagementAssignedSmeTest() 
 	{
-		baseURI="https://api.taxbuddy.com";
+		baseURI="http://api.taxbuddy.com";
 		Response response = given()
 				.queryParam("page", 0)
 				.queryParam("pageSize", 30)
@@ -40,4 +40,3 @@ public class SmeManagementApiTest extends BaseClass
 		
 	}
 }
-*/

@@ -1,4 +1,4 @@
-/*package taxbuddyApiTest;
+package taxbuddyApiTest;
 
 import org.testng.annotations.Test;
 
@@ -40,4 +40,3 @@ public class TBLoginApiTest extends BaseClass
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + validateRes.extract().asString());
 	}
 }
-*/
