@@ -16,7 +16,7 @@ public class SmeManagementApiTest extends BaseClass
 	@Test
 	public void SmeManagementAssignedSmeTest() 
 	{
-		baseURI="http://api.taxbuddy.com";
+		baseURI="https://api.taxbuddy.com";
 		Response response = given()
 				.queryParam("page", 0)
 				.queryParam("pageSize", 30)
