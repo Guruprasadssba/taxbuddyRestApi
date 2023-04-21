@@ -8,6 +8,9 @@
 			<class name="taxbuddyApiTest.SignupNewUserTest" />
 			<class name="taxbuddyApiTest.TBLoginApiTest" />
 			<class name="taxbuddyApiTest.SmeManagementApiTest" />
+			<class name="taxbuddyApiTest.UserProfileDetailsApiTest" />
+			<class name="taxbuddyApiTest.UserStatusInfoBOApiTest" />
+			<class name="taxbuddyApiTest.UserSubscriptionDetailsTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
