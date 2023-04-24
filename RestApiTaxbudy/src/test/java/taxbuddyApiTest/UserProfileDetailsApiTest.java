@@ -22,7 +22,7 @@ public class UserProfileDetailsApiTest extends BaseClass
 				.get("/user/profile/719913")
 				.then().assertThat().statusCode(200).log().all();
 
-		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :GetUserProfileDetailsApiTest");
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
 
 	}

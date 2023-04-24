@@ -32,7 +32,7 @@ public class UserSubscriptionDetailsTest extends BaseClass
 			System.out.println("Testcase is failed");
 		}
 
-		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :GetUserSubscriptiinDetailsTest");
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + validateRes.extract().asString());
 
 	}

@@ -32,7 +32,7 @@ public class UserStatusInfoBOApiTest extends BaseClass
 			System.out.println("Testcase is failed");
 		}
 
-		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :AgentAssignmentITRTest");
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :GetUserStatusInfoApiTest");
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + validateRes.extract().asString());
 
 	}
