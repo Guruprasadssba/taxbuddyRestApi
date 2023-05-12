@@ -22,14 +22,19 @@ public class BOUserITRStatusTest extends BaseClass
 				+ "    \"serviceType\": \"ITR\"}";
 
 		baseURI="https://api.taxbuddy.com";
-		ValidatableResponse response = given()
+		Response response = given()
 				.header("content-type","application/json").body(payload)
 				.when()
-				.post("/user/itr-status")
-				.then().assertThat().statusCode(201).log().all();
-		
+				.post("/user/itr-status");
+		ValidatableResponse validateResp = response.then().assertThat().statusCode(201).log().all();
+
+		// Validate response time
+		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 7000L);
+
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name : UpdateUserITRStatusTest");
-		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + response.extract().asString());
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response time is in Ms : " + response.getTime());
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Status code is : " + response.getStatusCode());
+		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response is : " + validateResp.extract().asString());
 
 	}
 

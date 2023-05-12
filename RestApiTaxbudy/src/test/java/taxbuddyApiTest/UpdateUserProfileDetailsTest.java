@@ -17,7 +17,7 @@ public class UpdateUserProfileDetailsTest
 	{
 		String payload="{\"userId\":8526,\r\n"
 				+"\"fName\":\"Guruprasad\","
-				+ "\"mName\":\"ssba\","
+				+ "\"mName\":\"ssba\","	
 				+ "\"lName\":\"Test\","
 				+ "\"fatherName\":\"innovations\","
 				+ "\"gender\":\"Male\","
