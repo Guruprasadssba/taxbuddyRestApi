@@ -32,7 +32,7 @@ public class AgentAssignmentTest extends BaseClass
 		ValidatableResponse validateresponse = response.then().assertThat().statusCode(200).log().all();
 
 		// Validate response time
-		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 7000L);
+		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 3000L);
 		
 		if (response.jsonPath().getBoolean("success")==true) 
 		{
@@ -64,7 +64,7 @@ public class AgentAssignmentTest extends BaseClass
 		ValidatableResponse validateResponse = response.then().assertThat().statusCode(200).log().all(); 
 
 		// Validate response time
-		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 7000L);
+		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 3000L);
 
 		if (response.jsonPath().getBoolean("success")==true) 
 		{
@@ -95,7 +95,7 @@ public class AgentAssignmentTest extends BaseClass
 		ValidatableResponse validateResponse = response.then().assertThat().statusCode(200).log().all();
 
 		// Validate response time
-		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 7000L);
+		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 3000L);
 
 		if (response.jsonPath().getBoolean("success")==true) 
 		{

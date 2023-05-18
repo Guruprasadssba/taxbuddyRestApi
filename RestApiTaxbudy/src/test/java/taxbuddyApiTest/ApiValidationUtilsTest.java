@@ -16,10 +16,10 @@ public class ApiValidationUtilsTest
 
 		try {
 			Matchers.both(Matchers.greaterThanOrEqualTo(minTimeMs)).and(Matchers.lessThanOrEqualTo(maxTimeMs));
-			ExtentTestManagerExtent.getTest().log(LogStatus.PASS, "API response time is within the expected range and which comes under Non-critical and Intermediate");
+			ExtentTestManagerExtent.getTest().log(LogStatus.PASS, "API response time is within the expected range and which comes under Non-critical ");
 		} catch (AssertionError e) 
 		{
-			ExtentTestManagerExtent.getTest().log(LogStatus.FAIL, "Api response time is above as expected its comes under critical");
+			ExtentTestManagerExtent.getTest().log(LogStatus.FAIL, "Api response time is above as expected its comes under  Intermediate");
 			throw e;
 		}
 	}

@@ -24,7 +24,7 @@ public class UserProfileDetailsApiTest extends BaseClass
 		ValidatableResponse validateResp = response.then().assertThat().statusCode(200).log().all();
 
 		// Validate response time 
-		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 7000L);
+		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 3000L);
 
 
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name :GetUserProfileDetailsApiTest");
