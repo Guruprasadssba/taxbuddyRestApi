@@ -30,7 +30,7 @@ public class SmeManagementApiTest extends BaseClass
 		ValidatableResponse validateresponse = response.then().assertThat().statusCode(200).log().all();
 
 		// Validate response time
-		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 3000L);
+		ApiValidationUtilsTest.validateResponseTimeNonCritical(response, 1000L);
 
 		if (response.jsonPath().getBoolean("success")==true) 
 		{

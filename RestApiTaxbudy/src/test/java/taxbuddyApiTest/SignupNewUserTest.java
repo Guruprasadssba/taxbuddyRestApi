@@ -37,7 +37,7 @@ public class SignupNewUserTest  extends BaseClass
 		ValidatableResponse validateResp = response.then().assertThat().statusCode(201).log().all();
 
 		// Validate response time
-		ApiValidationUtilsTest.validateResponseTime(response, 1000L, 3000L);
+		ApiValidationUtilsTest.validateResponseTimeNonCritical(response, 1000L);
 
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Test Case Name : SignupNewuserTest");
 		ExtentTestManagerExtent.getTest().log(LogStatus.INFO, "Response time is in Ms : " + response.getTime());

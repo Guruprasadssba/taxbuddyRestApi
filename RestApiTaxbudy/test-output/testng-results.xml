@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11370" started-at="2023-05-12T17:48:46 IST" finished-at="2023-05-12T17:48:57 IST">
+  <suite name="Suite" duration-ms="13898" started-at="2023-05-19T22:15:52 IST" finished-at="2023-05-19T22:16:06 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11370" started-at="2023-05-12T17:48:46 IST" finished-at="2023-05-12T17:48:57 IST">
+    <test name="Test" duration-ms="13898" started-at="2023-05-19T22:15:52 IST" finished-at="2023-05-19T22:16:06 IST">
       <class name="taxbuddyApiTest.AgentAssignmentTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="configBM" is-config="true" duration-ms="260" started-at="2023-05-12T17:48:46 IST" finished-at="2023-05-12T17:48:46 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="configBM" is-config="true" duration-ms="283" started-at="2023-05-19T22:15:52 IST" finished-at="2023-05-19T22:15:52 IST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="AgentAssignapiGSTTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="AgentAssignapiGSTTest" duration-ms="6296" started-at="2023-05-12T17:48:46 IST" finished-at="2023-05-12T17:48:53 IST">
+        <test-method status="PASS" signature="AgentAssignapiGSTTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="AgentAssignapiGSTTest" duration-ms="8397" started-at="2023-05-19T22:15:52 IST" finished-at="2023-05-19T22:16:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AgentAssignapiGSTTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="afterMethod" is-config="true" duration-ms="637" started-at="2023-05-12T17:48:53 IST" finished-at="2023-05-12T17:48:53 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="afterMethod" is-config="true" duration-ms="731" started-at="2023-05-19T22:16:01 IST" finished-at="2023-05-19T22:16:02 IST">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="configBM" is-config="true" duration-ms="0" started-at="2023-05-12T17:48:53 IST" finished-at="2023-05-12T17:48:53 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-19T22:16:02 IST" finished-at="2023-05-19T22:16:02 IST">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="AgentAssignapiITRTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="AgentAssignapiITRTest" duration-ms="251" started-at="2023-05-12T17:48:53 IST" finished-at="2023-05-12T17:48:53 IST">
+        <test-method status="PASS" signature="AgentAssignapiITRTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="AgentAssignapiITRTest" duration-ms="270" started-at="2023-05-19T22:16:02 IST" finished-at="2023-05-19T22:16:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AgentAssignapiITRTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="afterMethod" is-config="true" duration-ms="98" started-at="2023-05-12T17:48:53 IST" finished-at="2023-05-12T17:48:54 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="afterMethod" is-config="true" duration-ms="173" started-at="2023-05-19T22:16:02 IST" finished-at="2023-05-19T22:16:02 IST">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="AgentAssignapiNoticeTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="AgentAssignapiNoticeTest" duration-ms="220" started-at="2023-05-12T17:48:54 IST" finished-at="2023-05-12T17:48:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AgentAssignapiNoticeTest -->
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="configBM" is-config="true" duration-ms="0" started-at="2023-05-12T17:48:54 IST" finished-at="2023-05-12T17:48:54 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-19T22:16:02 IST" finished-at="2023-05-19T22:16:02 IST">
           <params>
             <param index="0">
               <value>
@@ -74,7 +70,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="afterMethod" is-config="true" duration-ms="78" started-at="2023-05-12T17:48:54 IST" finished-at="2023-05-12T17:48:54 IST">
+        <test-method status="PASS" signature="AgentAssignapiNoticeTest()[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="AgentAssignapiNoticeTest" duration-ms="242" started-at="2023-05-19T22:16:02 IST" finished-at="2023-05-19T22:16:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgentAssignapiNoticeTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.AgentAssignmentTest@87f383f]" name="afterMethod" is-config="true" duration-ms="77" started-at="2023-05-19T22:16:02 IST" finished-at="2023-05-19T22:16:02 IST">
           <params>
             <param index="0">
               <value>
@@ -87,11 +87,7 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- taxbuddyApiTest.AgentAssignmentTest -->
       <class name="taxbuddyApiTest.UserSubscriptionDetailsTest">
-        <test-method status="PASS" signature="GetUserSubscriptiinDetailsTest()[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@12c8a2c0]" name="GetUserSubscriptiinDetailsTest" duration-ms="282" started-at="2023-05-12T17:48:57 IST" finished-at="2023-05-12T17:48:57 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetUserSubscriptiinDetailsTest -->
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@12c8a2c0]" name="configBM" is-config="true" duration-ms="0" started-at="2023-05-12T17:48:57 IST" finished-at="2023-05-12T17:48:57 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@12c8a2c0]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-19T22:16:06 IST" finished-at="2023-05-19T22:16:06 IST">
           <params>
             <param index="0">
               <value>
@@ -102,7 +98,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@12c8a2c0]" name="afterMethod" is-config="true" duration-ms="55" started-at="2023-05-12T17:48:57 IST" finished-at="2023-05-12T17:48:57 IST">
+        <test-method status="PASS" signature="GetUserSubscriptiinDetailsTest()[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@12c8a2c0]" name="GetUserSubscriptiinDetailsTest" duration-ms="260" started-at="2023-05-19T22:16:06 IST" finished-at="2023-05-19T22:16:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserSubscriptiinDetailsTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@12c8a2c0]" name="afterMethod" is-config="true" duration-ms="98" started-at="2023-05-19T22:16:06 IST" finished-at="2023-05-19T22:16:06 IST">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- taxbuddyApiTest.UserSubscriptionDetailsTest -->
       <class name="taxbuddyApiTest.SmeManagementApiTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@78ac1102]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-12T17:48:55 IST" finished-at="2023-05-12T17:48:55 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@78ac1102]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:03 IST">
           <params>
             <param index="0">
               <value>
@@ -126,11 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="SmeManagementAssignedSmeTest()[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@78ac1102]" name="SmeManagementAssignedSmeTest" duration-ms="1321" started-at="2023-05-12T17:48:55 IST" finished-at="2023-05-12T17:48:56 IST">
+        <test-method status="PASS" signature="SmeManagementAssignedSmeTest()[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@78ac1102]" name="SmeManagementAssignedSmeTest" duration-ms="1459" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SmeManagementAssignedSmeTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@78ac1102]" name="afterMethod" is-config="true" duration-ms="57" started-at="2023-05-12T17:48:56 IST" finished-at="2023-05-12T17:48:56 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@78ac1102]" name="afterMethod" is-config="true" duration-ms="54" started-at="2023-05-19T22:16:05 IST" finished-at="2023-05-19T22:16:05 IST">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- taxbuddyApiTest.SmeManagementApiTest -->
       <class name="taxbuddyApiTest.TBLoginApiTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.TBLoginApiTest@3891771e]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-12T17:48:55 IST" finished-at="2023-05-12T17:48:55 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.TBLoginApiTest@3891771e]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:03 IST">
           <params>
             <param index="0">
               <value>
@@ -154,11 +154,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="TbUserLoginApiTest()[pri:0, instance:taxbuddyApiTest.TBLoginApiTest@3891771e]" name="TbUserLoginApiTest" duration-ms="238" started-at="2023-05-12T17:48:55 IST" finished-at="2023-05-12T17:48:55 IST">
+        <test-method status="PASS" signature="TbUserLoginApiTest()[pri:0, instance:taxbuddyApiTest.TBLoginApiTest@3891771e]" name="TbUserLoginApiTest" duration-ms="244" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TbUserLoginApiTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.TBLoginApiTest@3891771e]" name="afterMethod" is-config="true" duration-ms="71" started-at="2023-05-12T17:48:55 IST" finished-at="2023-05-12T17:48:55 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.TBLoginApiTest@3891771e]" name="afterMethod" is-config="true" duration-ms="47" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:03 IST">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- taxbuddyApiTest.TBLoginApiTest -->
       <class name="taxbuddyApiTest.UserProfileDetailsApiTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@396e2f39]" name="configBM" is-config="true" duration-ms="0" started-at="2023-05-12T17:48:56 IST" finished-at="2023-05-12T17:48:56 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@396e2f39]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-19T22:16:05 IST" finished-at="2023-05-19T22:16:05 IST">
           <params>
             <param index="0">
               <value>
@@ -182,11 +182,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="GetUserProfileDetailsApiTest()[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@396e2f39]" name="GetUserProfileDetailsApiTest" duration-ms="210" started-at="2023-05-12T17:48:56 IST" finished-at="2023-05-12T17:48:57 IST">
+        <test-method status="PASS" signature="GetUserProfileDetailsApiTest()[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@396e2f39]" name="GetUserProfileDetailsApiTest" duration-ms="195" started-at="2023-05-19T22:16:05 IST" finished-at="2023-05-19T22:16:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserProfileDetailsApiTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@396e2f39]" name="afterMethod" is-config="true" duration-ms="44" started-at="2023-05-12T17:48:57 IST" finished-at="2023-05-12T17:48:57 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@396e2f39]" name="afterMethod" is-config="true" duration-ms="54" started-at="2023-05-19T22:16:05 IST" finished-at="2023-05-19T22:16:05 IST">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,11 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- taxbuddyApiTest.UserProfileDetailsApiTest -->
       <class name="taxbuddyApiTest.SignupNewUserTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.SignupNewUserTest@17d0685f]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-12T17:48:54 IST" finished-at="2023-05-12T17:48:54 IST">
+        <test-method status="PASS" signature="createNewuserTest()[pri:0, instance:taxbuddyApiTest.SignupNewUserTest@17d0685f]" name="createNewuserTest" duration-ms="207" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewuserTest -->
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.SignupNewUserTest@17d0685f]" name="configBM" is-config="true" duration-ms="0" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:03 IST">
           <params>
             <param index="0">
               <value>
@@ -210,11 +214,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="createNewuserTest()[pri:0, instance:taxbuddyApiTest.SignupNewUserTest@17d0685f]" name="createNewuserTest" duration-ms="196" started-at="2023-05-12T17:48:54 IST" finished-at="2023-05-12T17:48:55 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewuserTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.SignupNewUserTest@17d0685f]" name="afterMethod" is-config="true" duration-ms="100" started-at="2023-05-12T17:48:55 IST" finished-at="2023-05-12T17:48:55 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.SignupNewUserTest@17d0685f]" name="afterMethod" is-config="true" duration-ms="54" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:03 IST">
           <params>
             <param index="0">
               <value>
@@ -227,7 +227,7 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- taxbuddyApiTest.SignupNewUserTest -->
       <class name="taxbuddyApiTest.BOUserITRStatusTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@22eeefeb]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-12T17:48:54 IST" finished-at="2023-05-12T17:48:54 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@22eeefeb]" name="configBM" is-config="true" duration-ms="5" started-at="2023-05-19T22:16:02 IST" finished-at="2023-05-19T22:16:02 IST">
           <params>
             <param index="0">
               <value>
@@ -238,11 +238,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="UpdateUserITRStatusTest()[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@22eeefeb]" name="UpdateUserITRStatusTest" duration-ms="430" started-at="2023-05-12T17:48:54 IST" finished-at="2023-05-12T17:48:54 IST">
+        <test-method status="PASS" signature="UpdateUserITRStatusTest()[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@22eeefeb]" name="UpdateUserITRStatusTest" duration-ms="469" started-at="2023-05-19T22:16:02 IST" finished-at="2023-05-19T22:16:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateUserITRStatusTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@22eeefeb]" name="afterMethod" is-config="true" duration-ms="65" started-at="2023-05-12T17:48:54 IST" finished-at="2023-05-12T17:48:54 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@22eeefeb]" name="afterMethod" is-config="true" duration-ms="90" started-at="2023-05-19T22:16:03 IST" finished-at="2023-05-19T22:16:03 IST">
           <params>
             <param index="0">
               <value>
@@ -255,7 +255,7 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- taxbuddyApiTest.BOUserITRStatusTest -->
       <class name="taxbuddyApiTest.UserStatusInfoBOApiTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@a74868d]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-12T17:48:57 IST" finished-at="2023-05-12T17:48:57 IST">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@a74868d]" name="configBM" is-config="true" duration-ms="1" started-at="2023-05-19T22:16:05 IST" finished-at="2023-05-19T22:16:05 IST">
           <params>
             <param index="0">
               <value>
@@ -266,11 +266,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="GetUserStatusInfoApiTest()[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@a74868d]" name="GetUserStatusInfoApiTest" duration-ms="246" started-at="2023-05-12T17:48:57 IST" finished-at="2023-05-12T17:48:57 IST">
+        <test-method status="PASS" signature="GetUserStatusInfoApiTest()[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@a74868d]" name="GetUserStatusInfoApiTest" duration-ms="280" started-at="2023-05-19T22:16:05 IST" finished-at="2023-05-19T22:16:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserStatusInfoApiTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@a74868d]" name="afterMethod" is-config="true" duration-ms="46" started-at="2023-05-12T17:48:57 IST" finished-at="2023-05-12T17:48:57 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@a74868d]" name="afterMethod" is-config="true" duration-ms="42" started-at="2023-05-19T22:16:06 IST" finished-at="2023-05-19T22:16:06 IST">
           <params>
             <param index="0">
               <value>
