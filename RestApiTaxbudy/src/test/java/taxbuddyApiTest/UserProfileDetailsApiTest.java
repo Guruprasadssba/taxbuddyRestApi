@@ -20,7 +20,7 @@ public class UserProfileDetailsApiTest extends BaseClass
 		baseURI="https://api.taxbuddy.com";
 		Response response = given()
 				.when()
-				.get("/user/profile/719913");
+				.get("/user/profile/745795");
 		ValidatableResponse validateResp = response.then().assertThat().statusCode(200).log().all();
 
 		// Validate response time 

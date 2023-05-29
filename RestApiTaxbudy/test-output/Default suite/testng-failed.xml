@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="taxbuddyApiTest.AgentAssignmentTest">
+      <class name="taxbuddyApiTest.UserProfileDetailsApiTest">
         <methods>
-          <include name="AgentAssignapiITRTest"/>
           <include name="afterMethod"/>
+          <include name="GetUserProfileDetailsApiTest"/>
           <include name="configBM"/>
         </methods>
-      </class> <!-- taxbuddyApiTest.AgentAssignmentTest -->
+      </class> <!-- taxbuddyApiTest.UserProfileDetailsApiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
