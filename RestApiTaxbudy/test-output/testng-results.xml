@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5772" started-at="2023-06-12T17:55:33 IST" finished-at="2023-06-12T17:55:39 IST">
+  <suite name="Default suite" duration-ms="3763" started-at="2023-06-29T21:04:27 IST" finished-at="2023-06-29T21:04:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5772" started-at="2023-06-12T17:55:33 IST" finished-at="2023-06-12T17:55:39 IST">
-      <class name="taxbuddyApiTest.BO_GetNewUserListApiTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.BO_GetNewUserListApiTest@4d3167f4]" name="configBM" is-config="true" duration-ms="177" started-at="2023-06-12T17:55:33 IST" finished-at="2023-06-12T17:55:33 IST">
+    <test name="Default test" duration-ms="3763" started-at="2023-06-29T21:04:27 IST" finished-at="2023-06-29T21:04:31 IST">
+      <class name="taxbuddyApiTest.UserProfileDetailsApiTest">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@4d3167f4]" name="configBM" is-config="true" duration-ms="172" started-at="2023-06-29T21:04:27 IST" finished-at="2023-06-29T21:04:27 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void taxbuddyApiTest.BO_GetNewUserListApiTest.NewUserListBOApiTest()]]>
+                <![CDATA[public void taxbuddyApiTest.UserProfileDetailsApiTest.GetUserProfileDetailsApiTest()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="NewUserListBOApiTest()[pri:0, instance:taxbuddyApiTest.BO_GetNewUserListApiTest@4d3167f4]" name="NewUserListBOApiTest" duration-ms="5194" started-at="2023-06-12T17:55:33 IST" finished-at="2023-06-12T17:55:38 IST">
+        <test-method status="PASS" signature="GetUserProfileDetailsApiTest()[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@4d3167f4]" name="GetUserProfileDetailsApiTest" duration-ms="2969" started-at="2023-06-29T21:04:27 IST" finished-at="2023-06-29T21:04:30 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NewUserListBOApiTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.BO_GetNewUserListApiTest@4d3167f4]" name="afterMethod" is-config="true" duration-ms="343" started-at="2023-06-12T17:55:39 IST" finished-at="2023-06-12T17:55:39 IST">
+        </test-method> <!-- GetUserProfileDetailsApiTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@4d3167f4]" name="afterMethod" is-config="true" duration-ms="573" started-at="2023-06-29T21:04:30 IST" finished-at="2023-06-29T21:04:31 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewUserListBOApiTest status=SUCCESS method=BO_GetNewUserListApiTest.NewUserListBOApiTest()[pri:0, instance:taxbuddyApiTest.BO_GetNewUserListApiTest@4d3167f4] output={null}]]]>
+                <![CDATA[[TestResult name=GetUserProfileDetailsApiTest status=SUCCESS method=UserProfileDetailsApiTest.GetUserProfileDetailsApiTest()[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@4d3167f4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- taxbuddyApiTest.BO_GetNewUserListApiTest -->
+      </class> <!-- taxbuddyApiTest.UserProfileDetailsApiTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
