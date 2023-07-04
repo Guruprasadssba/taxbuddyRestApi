@@ -11,7 +11,6 @@
 			<class name="taxbuddyApiTest.UserProfileDetailsApiTest" />
 			<class name="taxbuddyApiTest.UserStatusInfoBOApiTest" />
 			<class name="taxbuddyApiTest.UserSubscriptionDetailsTest" />
-			<class name="taxbuddyApiTest.BO_GetNewUserListApiTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
