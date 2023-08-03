@@ -1,4 +1,5 @@
-/*package practiceTaxbbuddyApiTest;
+package practiceTaxbbuddyApiTest;
+
 
 import org.testng.annotations.Test;
 
@@ -18,12 +19,15 @@ public class AgentAssignment_ITRTest
 		reqspec.baseUri("https://api.taxbuddy.com");
 
 		//query parameters in the form of key and value
-		reqspec.queryParam("userId", 619930);
-		reqspec.queryParam("assessmentYear", 2022-2023);
+		reqspec.queryParam("userId", 803551);
+		reqspec.queryParam("assessmentYear", 2023-2024);
 		reqspec.queryParam("serviceType", "ITR");
+		String bearertoken = reqspec.get().getHeader("Authorization");
+		System.out.println(bearertoken);
+		//reqspec.auth().oauth2(bearertoken);
 
 		// sending the request 
-		Response res = reqspec.when().get("/user/sme/agent-assignment");
+		Response res = reqspec.when().get("/user/agent-assignment-new");
 
 		// validating response
 		ValidatableResponse validateRes = res.then();
@@ -33,4 +37,3 @@ public class AgentAssignment_ITRTest
 	
 	}
 }
-*/

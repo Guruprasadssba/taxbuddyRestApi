@@ -1,127 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5528" started-at="2023-07-04T11:29:47 IST" finished-at="2023-07-04T11:29:52 IST">
+  <suite name="Suite" duration-ms="10024" started-at="2023-08-03T17:00:23 IST" finished-at="2023-08-03T17:00:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5528" started-at="2023-07-04T11:29:47 IST" finished-at="2023-07-04T11:29:52 IST">
-      <class name="taxbuddyApiTest.BO_GetNewUserListApiTest">
-        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.BO_GetNewUserListApiTest@a38d7a3]" name="configBM" is-config="true" duration-ms="299" started-at="2023-07-04T11:29:47 IST" finished-at="2023-07-04T11:29:47 IST">
+    <test name="Test" duration-ms="10024" started-at="2023-08-03T17:00:23 IST" finished-at="2023-08-03T17:00:33 IST">
+      <class name="taxbuddyApiTest.UserSubscriptionDetailsTest">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@289d1c02]" name="configBM" is-config="true" duration-ms="1" started-at="2023-08-03T17:00:33 IST" finished-at="2023-08-03T17:00:33 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void taxbuddyApiTest.BO_GetNewUserListApiTest.NewUserListBOApiTest()]]>
+                <![CDATA[public void taxbuddyApiTest.UserSubscriptionDetailsTest.GetUserSubscriptiinDetailsTest()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="FAIL" signature="NewUserListBOApiTest()[pri:0, instance:taxbuddyApiTest.BO_GetNewUserListApiTest@a38d7a3]" name="NewUserListBOApiTest" duration-ms="4374" started-at="2023-07-04T11:29:47 IST" finished-at="2023-07-04T11:29:52 IST">
-          <exception class="java.lang.NoSuchMethodError">
-            <message>
-              <![CDATA[org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V
-at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
-at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:549)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at taxbuddyApiTest.BO_GetNewUserListApiTest.NewUserListBOApiTest(BO_GetNewUserListApiTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+        <test-method status="PASS" signature="GetUserSubscriptiinDetailsTest()[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@289d1c02]" name="GetUserSubscriptiinDetailsTest" duration-ms="265" started-at="2023-08-03T17:00:33 IST" finished-at="2023-08-03T17:00:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NewUserListBOApiTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.BO_GetNewUserListApiTest@a38d7a3]" name="afterMethod" is-config="true" duration-ms="712" started-at="2023-07-04T11:29:52 IST" finished-at="2023-07-04T11:29:52 IST">
+        </test-method> <!-- GetUserSubscriptiinDetailsTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@289d1c02]" name="afterMethod" is-config="true" duration-ms="36" started-at="2023-08-03T17:00:33 IST" finished-at="2023-08-03T17:00:33 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NewUserListBOApiTest status=FAILURE method=BO_GetNewUserListApiTest.NewUserListBOApiTest()[pri:0, instance:taxbuddyApiTest.BO_GetNewUserListApiTest@a38d7a3] output={null}]]]>
+                <![CDATA[[TestResult name=GetUserSubscriptiinDetailsTest status=SUCCESS method=UserSubscriptionDetailsTest.GetUserSubscriptiinDetailsTest()[pri:0, instance:taxbuddyApiTest.UserSubscriptionDetailsTest@289d1c02] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- taxbuddyApiTest.BO_GetNewUserListApiTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- taxbuddyApiTest.UserSubscriptionDetailsTest -->
+      <class name="taxbuddyApiTest.SmeManagementApiTest">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@1fc2b765]" name="configBM" is-config="true" duration-ms="0" started-at="2023-08-03T17:00:27 IST" finished-at="2023-08-03T17:00:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void taxbuddyApiTest.SmeManagementApiTest.SmeManagementAssignedSmeTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="SmeManagementAssignedSmeTest()[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@1fc2b765]" name="SmeManagementAssignedSmeTest" duration-ms="5393" started-at="2023-08-03T17:00:27 IST" finished-at="2023-08-03T17:00:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmeManagementAssignedSmeTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@1fc2b765]" name="afterMethod" is-config="true" duration-ms="47" started-at="2023-08-03T17:00:32 IST" finished-at="2023-08-03T17:00:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SmeManagementAssignedSmeTest status=SUCCESS method=SmeManagementApiTest.SmeManagementAssignedSmeTest()[pri:0, instance:taxbuddyApiTest.SmeManagementApiTest@1fc2b765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- taxbuddyApiTest.SmeManagementApiTest -->
+      <class name="taxbuddyApiTest.UserProfileDetailsApiTest">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@75881071]" name="configBM" is-config="true" duration-ms="0" started-at="2023-08-03T17:00:32 IST" finished-at="2023-08-03T17:00:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void taxbuddyApiTest.UserProfileDetailsApiTest.GetUserProfileDetailsApiTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="GetUserProfileDetailsApiTest()[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@75881071]" name="GetUserProfileDetailsApiTest" duration-ms="200" started-at="2023-08-03T17:00:32 IST" finished-at="2023-08-03T17:00:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserProfileDetailsApiTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@75881071]" name="afterMethod" is-config="true" duration-ms="56" started-at="2023-08-03T17:00:32 IST" finished-at="2023-08-03T17:00:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetUserProfileDetailsApiTest status=SUCCESS method=UserProfileDetailsApiTest.GetUserProfileDetailsApiTest()[pri:0, instance:taxbuddyApiTest.UserProfileDetailsApiTest@75881071] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- taxbuddyApiTest.UserProfileDetailsApiTest -->
+      <class name="taxbuddyApiTest.BOUserITRStatusTest">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@76a3e297]" name="configBM" is-config="true" duration-ms="156" started-at="2023-08-03T17:00:23 IST" finished-at="2023-08-03T17:00:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void taxbuddyApiTest.BOUserITRStatusTest.UpdateUserITRStatusTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="UpdateUserITRStatusTest()[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@76a3e297]" name="UpdateUserITRStatusTest" duration-ms="3112" started-at="2023-08-03T17:00:23 IST" finished-at="2023-08-03T17:00:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUserITRStatusTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@76a3e297]" name="afterMethod" is-config="true" duration-ms="429" started-at="2023-08-03T17:00:26 IST" finished-at="2023-08-03T17:00:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateUserITRStatusTest status=SUCCESS method=BOUserITRStatusTest.UpdateUserITRStatusTest()[pri:0, instance:taxbuddyApiTest.BOUserITRStatusTest@76a3e297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- taxbuddyApiTest.BOUserITRStatusTest -->
+      <class name="taxbuddyApiTest.UserStatusInfoBOApiTest">
+        <test-method status="PASS" signature="configBM(java.lang.reflect.Method)[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@2a70a3d8]" name="configBM" is-config="true" duration-ms="1" started-at="2023-08-03T17:00:32 IST" finished-at="2023-08-03T17:00:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void taxbuddyApiTest.UserStatusInfoBOApiTest.GetUserStatusInfoApiTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="GetUserStatusInfoApiTest()[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@2a70a3d8]" name="GetUserStatusInfoApiTest" duration-ms="209" started-at="2023-08-03T17:00:32 IST" finished-at="2023-08-03T17:00:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserStatusInfoApiTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@2a70a3d8]" name="afterMethod" is-config="true" duration-ms="39" started-at="2023-08-03T17:00:33 IST" finished-at="2023-08-03T17:00:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetUserStatusInfoApiTest status=SUCCESS method=UserStatusInfoBOApiTest.GetUserStatusInfoApiTest()[pri:0, instance:taxbuddyApiTest.UserStatusInfoBOApiTest@2a70a3d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- taxbuddyApiTest.UserStatusInfoBOApiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -19,8 +19,9 @@ public class UserProfileDetailsApiTest extends BaseClass
 	{
 		baseURI="https://api.taxbuddy.com";
 		Response response = given()
+				.auth().oauth2("wxdM4LaOmh")
 				.when()
-				.get("/user/profile/745110");
+				.get("/user/profile/803551");
 		ValidatableResponse validateResp = response.then().assertThat().statusCode(200).log().all();
 
 		// Validate response time 

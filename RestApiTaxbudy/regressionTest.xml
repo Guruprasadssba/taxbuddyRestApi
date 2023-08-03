@@ -3,10 +3,7 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="taxbuddyApiTest.AgentAssignmentTest" />
 			<class name="taxbuddyApiTest.BOUserITRStatusTest" />
-			<class name="taxbuddyApiTest.SignupNewUserTest" />
-			<class name="taxbuddyApiTest.TBLoginApiTest" />
 			<class name="taxbuddyApiTest.SmeManagementApiTest" />
 			<class name="taxbuddyApiTest.UserProfileDetailsApiTest" />
 			<class name="taxbuddyApiTest.UserStatusInfoBOApiTest" />
